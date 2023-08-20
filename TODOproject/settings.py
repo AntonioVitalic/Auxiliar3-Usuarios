@@ -88,6 +88,10 @@ DATABASES = {
     }
 }
 
+AUTH_USER_MODEL = 'todoapp.User'
+# Con esta linea le diremos al proyecto que 
+# el sistema de usuarios ahora será en base 
+# al modelo User que acabamos de crear.
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators
